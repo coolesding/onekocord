@@ -10,7 +10,7 @@
 /*Add oneko*/
 .vc-toolbox-btn:before {
     content: "";
-    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekotoolbox-sleep-duration, 2s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-sleep-animation, sleep);
     image-rendering: var(--onekotoolbox-rendering, pixelated);
     width: 32px;
@@ -28,7 +28,7 @@
     opacity: 1;
 }
 /*Wake oneko up when selected and start selected animation */
-.vc-toolbox-btn:is([class*=selected_]) {
+.vc-toolbox-btn.selected__1fc53:before{
     animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekotoolbox-wakeup-animation, wakeup), var(--onekotoolbox-selected-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-selected-animation, alert);
     opacity: 1;
 }
