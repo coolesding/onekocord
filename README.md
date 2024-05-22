@@ -161,5 +161,5 @@ If you want to contribute, make sure to open an issue with your idea or code and
 
 
 
-
+</details>
 Unless otherwise specified, do not distribute the code of this project directly, since it will cause conflicting versions for people, always use a link to raw files or to the repository to refer to Onekocord.
