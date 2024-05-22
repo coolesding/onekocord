@@ -1,0 +1,25 @@
+/*Add oneko*/
+.attachButtonInner__84c26 {
+    visibility: hidden;
+}
+.attachButton__56f98:before {
+	content: "";
+	background-image: var(--onekoattachmenticon-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
+	animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekoattachmenticon-sleep-duration, 2s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-sleep-animation, sleep);
+	image-rendering: var(--onekoattachmenticon-rendering, pixelated);
+	width: 32px;
+	height: 32px;
+    position: absolute;
+	bottom: var(--onekoattachmenticon-position-bottom, 0px);
+	left: var(--onekoattachmenticon-position-left, 10px);
+	z-index: var(--onekoattachmenticon-z-index, 1);
+	scale: var(--onekoattachmenticon-scale, 1);
+}
+/*Wake oneko up on hover and start hover animation*/
+.attachButton__56f98:hover:before {
+  animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards var(--onekoattachmenticon-wakeup-animation, wakeup), var(--onekoattachmenticon-hovered-duration, 0.3s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-hovered-animation, alert)
+}
+/*Wake oneko up when message bar is selected and start selected animation*/
+.attachButton__56f98[aria-expanded="true"]:before {
+	animation: var(--onekoattachmenticon-wakeup-duration, 2s) 1 forwards var(--onekoattachmenticon-wakeup-animation, wakeup), var(--onekoattachmenticon-selected-duration, 0.3s) var(--onekoattachmenticon-wakeup-duration, 2s) infinite var(--onekoattachmenticon-selected-animation, alert);
+}
