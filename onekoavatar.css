@@ -5,7 +5,7 @@
 /*Add oneko*/
 [class^=avatarWrapper_]>[class^=wrapper_]:before {
     content: "";
-    background: var(--onekoavatar-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+    background: var(--onekoavatar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekoavatar-sleep-duration, 2s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-sleep-animation, sleep);
     image-rendering: var(--onekoavatar-rendering, pixelated);
     width: 32px;
