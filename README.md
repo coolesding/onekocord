@@ -69,7 +69,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 **Onekohomeicon Variables**
 ```css
 :root { /*Onekohomeicon*/
---onekohomeicon-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekohomeicon-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
 --onekohomeicon-rendering: pixelated;
 --onekohomeicon-wakeup-animation: wakeup;
 --onekohomeicon-wakeup-duration: 2s;
@@ -86,7 +86,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 **Onekomessagebar Variables**
 ```css
 :root { /*Onekomessagebar*/
---onekomessagebar-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekomessagebar-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
 --onekomessagebar-rendering: pixelated;
 --onekomessagebar-z-index: 1;
 --onekomessagebar-position-top: -30px;
@@ -106,7 +106,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 **Onekotoolbox Variables**
 ```css
 :root { /*Onekotoolbox*/
---onekotoolbox-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekotoolbox-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
 --onekotoolbox-rendering: pixelated;
 --onekotoolbox-wakeup-animation: wakeup;
 --onekotoolbox-wakeup-duration: 2s;
@@ -123,7 +123,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 **Onekoavatar Variables**
 ```css
 :root { /*Onekoavatar*/
---onekoavatar-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekoavatar-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
 --onekoavatar-rendering: pixelated;
 --onekoavatar-wakeup-animation: wakeup;
 --onekoavatar-wakeup-duration: 2s;
@@ -140,7 +140,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 **Onekowelcome Variables**
 ```css
 :root { /*Onekowelcome*/
---onekowelcome-skin: url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png);
+--onekowelcome-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
 --onekowelcome-rendering: pixelated;
 --onekowelcome-wakeup-animation: wakeup;
 --onekowelcome-wakeup-duration: 2s;
@@ -162,4 +162,6 @@ If you want to contribute, make sure to open an issue with your idea or code and
 
 
 </details>
+
+
 Unless otherwise specified, do not distribute the code of this project directly, since it will cause conflicting versions for people, always use a link to raw files or to the repository to refer to Onekocord.
