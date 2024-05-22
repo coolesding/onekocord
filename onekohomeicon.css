@@ -5,7 +5,7 @@
 /*Add oneko*/
 [data-list-item-id=guildsnav___home]:before {
 	content: "";
-	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
 	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 1s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
 	image-rendering: var(--onekohomeicon-rendering, pixelated);
 	width: 32px;
