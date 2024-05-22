@@ -1,0 +1,43 @@
+:root {
+    --onekomessagebar-firststart-animation: gotosleep;
+    --onekomessagebar-firststart-duration: 2s;
+    --onekomessagebar-firststart-direction: reverse;
+
+    --onekomessagebar-firstwalk-animation: runright;
+    --onekomessagebar-firstwalk-duration: 6s;
+    --onekomessagebar-firstwalk-direction: normal;
+    --onekomessagebar-firstwalk-steps: 20;
+    --onekomessagebar-firstwalk-delay: var(--onekomessagebar-firststart-duration);
+
+    --onekomessagebar-firstarrival-animation: gotosleep;
+    --onekomessagebar-firstarrival-duration: 2s;
+    --onekomessagebar-firstarrival-delay: calc(var(--onekomessagebar-firstwalk-delay) + var(--onekomessagebar-firstwalk-duration));
+
+    --onekomessagebar-firstpause-animation: sleep;
+    --onekomessagebar-firstpause-duration: 1s;
+    --onekomessagebar-firstpause-delay: calc(var(--onekomessagebar-firstarrival-delay) + var(--onekomessagebar-firstarrival-duration));
+    --onekomessagebar-firstpause-halt: 3s;
+
+    --onekomessagebar-secondstart-animation: gotosleep;
+    --onekomessagebar-secondstart-duration: 2s;
+    --onekomessagebar-secondstart-direction: reverse;
+    --onekomessagebar-secondstart-delay: calc(var(--onekomessagebar-firstpause-delay) + var(--onekomessagebar-firstpause-duration) + var(--onekomessagebar-firstpause-halt, 3s));
+
+    --onekomessagebar-secondwalk-animation: runleft;
+    --onekomessagebar-secondwalk-duration: 6s;
+    --onekomessagebar-secondwalk-delay: calc(var(--onekomessagebar-secondstart-delay) + var(--onekomessagebar-secondstart-duration));
+    --onekomessagebar-secondwalk-steps: 20;
+    --onekomessagebar-secondwalk-direction: reverse;
+
+    --onekomessagebar-secondarrival-animation: gotosleep;
+    --onekomessagebar-secondarrival-duration: 2s;
+    --onekomessagebar-secondarrival-delay: calc(var(--onekomessagebar-secondwalk-delay) + var(--onekomessagebar-secondwalk-duration));
+
+    --onekomessagebar-secondpause-animation: sleep;
+    --onekomessagebar-secondpause-duration: 1s;
+    --onekomessagebar-secondpause-delay: calc(var(--onekomessagebar-secondarrival-delay) + var(--onekomessagebar-secondarrival-duration));
+}
+[class^=channelTextArea_]:has(:focus):before  {
+  --sleep-animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 1s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
+	animation: var(--sleep-animation, var(--onekomessagebar-firststart-animation, gotosleep) var(--onekomessagebar-firststart-duration, 2s) var(--onekomessagebar-firststart-direction, reverse), messagebarwalk var(--onekomessagebar-firstwalk-duration, 6s) var(--onekomessagebar-firstwalk-delay, 2s) forwards linear var(--onekomessagebar-firstwalk-direction, normal), var(--onekomessagebar-firstwalk-animation, runright) calc(var(--onekomessagebar-firstwalk-duration)/var(--onekomessagebar-firstwalk-steps)) var(--onekomessagebar-firstwalk-steps) var(--onekomessagebar-firstwalk-delay), var(--onekomessagebar-firstarrival-animation, gotosleep) var(--onekomessagebar-firstarrival-duration, 2s) var(--onekomessagebar-firstarrival-delay) 1 forwards, var(--onekomessagebar-firstpause-animation, sleep) var(--onekomessagebar-firstpause-duration, 2s) var(--onekomessagebar-firstpause-delay) infinite, var(--onekomessagebar-secondstart-animation, gotosleep) var(--onekomessagebar-secondstart-duration, 2s) var(--onekomessagebar-secondstart-delay) var(--onekomessagebar-secondstart-direction, reverse), messagebarwalk var(--onekomessagebar-secondwalk-duration, 6s) var(--onekomessagebar-secondwalk-delay) var(--onekomessagebar-secondwalk-direction, reverse) linear forwards, runleft calc(var(--onekomessagebar-secondwalk-duration, 6s)/var(--onekomessagebar-secondwalk-steps, 20)) var(--onekomessagebar-secondwalk-delay) infinite, var(--onekomessagebar-secondarrival-animation, gotosleep) var(--onekomessagebar-secondarrival-duration, 2s) var(--onekomessagebar-secondarrival-delay), var(--onekomessagebar-secondpause-animation, sleep) var(--onekomessagebar-secondpause-duration, 2s) var(--onekomessagebar-secondpause-delay) infinite);
+}

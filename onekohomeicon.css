@@ -1,0 +1,26 @@
+/*Hide original home icon*/
+[data-list-item-id=guildsnav___home]>[class^=childWrapper_] {
+	display: none;
+}
+/*Add oneko*/
+[data-list-item-id=guildsnav___home]:before {
+	content: "";
+	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 1s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
+	image-rendering: var(--onekohomeicon-rendering, pixelated);
+	width: 32px;
+	height: 32px;
+	transition: 0.2s ease;
+	opacity: 0.7;
+    	scale: var(--onekohomeicon-scale, 1);
+}
+/*Wake oneko up and start hover animation on hover*/
+[data-list-item-id=guildsnav___home]:hover:before {
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-hovered-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-hovered-animation, alert);
+	opacity: 1;
+}
+/*Wake oneko up and start selected animation when opening dms*/
+[data-list-item-id=guildsnav___home][class*=selected_]:not(:hover):before {
+	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-selected-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-selected-animation, runright);
+	opacity: 1;
+}

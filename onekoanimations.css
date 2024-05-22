@@ -1,0 +1,176 @@
+@keyframes sleep {
+	0%,
+	50% {
+		background-position: -64px 0;
+	}
+	50.00001%,
+	100% {
+		background-position: -64px -32px;
+	}
+}
+@keyframes alert {
+	0%,
+	50% {
+		background-position: -224px -96px;
+	}
+	50.00001%,
+	100% {
+		background-position: -96px -96px;
+	}
+}
+@keyframes runright {
+	0%,
+	50% {
+		background-position: -96px 2px;
+	}
+	50.00001%,
+	100% {
+		background-position: -96px -30px;
+	}
+}
+@keyframes runleft {
+	0%,
+	50% {
+		background-position: -128px -62px;
+	}
+	50.00001%,
+	100% {
+		background-position: -128px -94px;
+	}
+}
+@keyframes scratchright {
+	0%,
+	50% {
+		background-position: -64px -62px;
+	}
+	50.00001%,
+	100% {
+		background-position: -64px -94px;
+	}
+}
+@keyframes scratchleft {
+	0%,
+	50% {
+		background-position: -128px 2px;
+	}
+	50.00001%,
+	100% {
+		background-position: -128px -30px;
+	}
+}
+@keyframes scratchup {
+	0%,
+	50% {
+		background-position: 0 0;
+	}
+	50.00001%,
+	100% {
+		background-position: 0 -32px;
+	}
+}
+@keyframes scratchdown {
+	0%,
+	50% {
+		background-position: -224px -30px;
+	}
+	50.00001%,
+	100% {
+		background-position: -192px -62px;
+	}
+}
+@keyframes spinleft {
+	0%,
+	20% {
+		background-position: -96px -30px;
+	}
+	20.00001%,
+	40% {
+		background-position: -160px -62px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px -62px;
+	}
+	60.00001%,
+	80% {
+		background-position: -192px -30px;
+	}
+	80.00001%,
+	100% {
+		background-position: -128px -94px;
+	}
+}
+@keyframes spinright {
+	0%,
+	20% {
+		background-position: -128px -94px;
+	}
+	20.00001%,
+	40% {
+		background-position: -192px -30px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px -62px;
+	}
+	60.00001%,
+	80% {
+		background-position: -160px -62px;
+	}
+	80.00001%,
+	100% {
+		background-position: -96px -30px;
+	}
+}
+@keyframes wakeup {
+	0%,
+	20% {
+		background-position: -160px 0;
+	}
+	20.00001%,
+	40% {
+		background-position: -192px 0;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px 0;
+	}
+	60.00001%,
+	80% {
+		background-position: -96px -64px;
+	}
+	80.00001%,
+	100% {
+		background-position: -96px -96px;
+	}
+}
+@keyframes gotosleep {
+	0%,
+	20% {
+		background-position: -96px -96px;
+	}
+	20.00001%,
+	40% {
+		background-position: -96px -64px;
+	}
+	40.00001%,
+	60% {
+		background-position: -224px 0;
+	}
+	60.00001%,
+	80% {
+		background-position: -192px 0;
+	}
+	80.00001%,
+	100% {
+		background-position: -160px 0;
+	}
+}
+@keyframes messagebarwalk {
+    from {
+        left: calc(0% + var(--onekomessagebar-position-left, 10px));
+    }
+    to {
+        left: calc(100% - 32px*var(--onekomessagebar-scale, 1) - var(--onekomessagebar-position-left, 10px));
+    }
+}

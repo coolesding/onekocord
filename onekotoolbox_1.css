@@ -1,0 +1,34 @@
+/*Hide orignal toolbox icon*/
+.vc-toolbox-btn>svg {
+    display: none;
+}
+/*Make toolbox container the correct size*/
+.vc-toolbox-btn {
+    width: 24px;
+    height: 24px;
+}
+/*Add oneko*/
+.vc-toolbox-btn:before {
+    content: "";
+    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekotoolbox-sleep-duration, 2s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-sleep-animation, sleep);
+    image-rendering: var(--onekotoolbox-rendering, pixelated);
+    width: 32px;
+    height: 32px;  
+    position: absolute;
+    bottom: -4px;
+    right: 0px;
+    transition: 0.2s ease;
+    opacity: 0.7;
+    scale: var(--onekotoolbox-scale, 1);
+}
+/*Wake oneko up and start hover animation on hover*/
+.vc-toolbox-btn:hover:before {
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekotoolbox-hovered-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-hovered-animation, alert);
+    opacity: 1;
+}
+/*Wake oneko up when selected and start selected animation */
+.vc-toolbox-btn:is([class*=selected_]) {
+    animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekotoolbox-wakeup-animation, wakeup), var(--onekotoolbox-selected-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-selected-animation, alert);
+    opacity: 1;
+}
