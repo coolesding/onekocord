@@ -1,0 +1,15 @@
+/*Add oneko*/
+.barInMultiLine__5fd01 {
+    display: flex;
+}
+.barInMultiLine__5fd01:after {
+    content: "";
+    background-image: var(--onekoprogressbar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
+    width: 32px;
+    animation: var(--onekoprogressbar-duration, 0.3s) infinite var(--onekoprogressbar-animation, runright);
+    height: 32px;
+    top: -28px;
+    left: -16px;
+    position: relative;
+    image-rendering: var(--onekoprogressbar-rendering, pixelated);
+}
