@@ -10,7 +10,7 @@
 /*Add oneko*/
 .vc-toolbox-btn:before {
     content: "";
-    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+    background: var(--onekotoolbox-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekotoolbox-sleep-duration, 2s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-sleep-animation, sleep);
     image-rendering: var(--onekotoolbox-rendering, pixelated);
     width: 32px;
