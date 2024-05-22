@@ -152,6 +152,26 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 }
 ```
 
+**Onekoattachmenticon Variables**
+```css
+:root { /*Onekomessagebar*/
+--onekoattachmenticon-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);
+--onekoattachmenticon-rendering: pixelated;
+--onekoattachmenticon-z-index: 1;
+--onekoattachmenticon-position-top: -30px;
+--onekoattachmenticon-position-left: 10px;
+--onekoattachmenticon-wakeup-animation: wakeup;
+--onekoattachmenticon-wakeup-duration: 2s;
+--onekoattachmenticon-sleep-animation: sleep;
+--onekoattachmenticon-sleep-duration: 2s;
+--onekoattachmenticon-hovered-animation: scratchright;
+--onekoattachmenticon-hovered-duration: 0.3s;
+--onekoattachmenticon-selected-animation: alert;
+--onekoattachmenticon-selected-duration: 0.3s;
+--onekoattachmenticon-scale: 1;
+}
+```
+
 ## Contributing and Permissions
 
 If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository.
