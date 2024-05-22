@@ -116,7 +116,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 --onekotoolbox-hovered-duration: 0.3s;
 --onekotoolbox-selected-animation: alert;
 --onekotoolbox-selected-duration: 0.3s;
---onekotoolbox-sclae: 1;
+--onekotoolbox-scale: 1;
 }
 ```
 
