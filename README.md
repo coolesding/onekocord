@@ -154,7 +154,12 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 
 ## Contributing and Permissions
 
-If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository. When this happens for the first time, I will add a space to credit contributers.
+If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository.
+<details>
+<summary>Contributors</summary>
+-  [KrystalSkull](https://github.com/KrystalSkullOfficial)
+
+
 
 
 Unless otherwise specified, do not distribute the code of this project directly, since it will cause conflicting versions for people, always use a link to raw files or to the repository to refer to Onekocord.
