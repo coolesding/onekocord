@@ -4,7 +4,7 @@ Your favourite cat, Oneko, implemented into discord everywhere you wish!
 
 This repository contains all official Oneko skins and code snippets
 
-Only supported on [Vencord](https://vencord.dev), may partly work on [BetterDiscord](https://betterdiscord.app)
+Confirmed for use in Vencord based clients, should mostly support all other clientmods
 
 ## Content
 **Onekoanimations**
@@ -174,7 +174,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 
 ## Contributing and Permissions
 
-If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository.
+If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository. We invite EVERYONE to create new skins or supply ideas for new oneko snippets. If you have an idea but not the skills, open an issue with the "Suggestion" tag.
 <details>
 <summary>Contributors</summary>
 
