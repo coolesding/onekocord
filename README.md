@@ -178,7 +178,7 @@ If you want to contribute, make sure to open an issue with your idea or code and
 <details>
 <summary>Contributors</summary>
 
-  -  [KrystalSkull](https://github.com/KrystalSkullOfficial)
+  -  [KrystalSkull](https://github.com/KrstlSkll69)
 
 
 
