@@ -21,41 +21,41 @@
 @keyframes runright {
 	0%,
 	50% {
-		background-position: -96px 2px;
+		background-position: -96px 0px;
 	}
 	50.00001%,
 	100% {
-		background-position: -96px -30px;
+		background-position: -96px -32px;
 	}
 }
 @keyframes runleft {
 	0%,
 	50% {
-		background-position: -128px -62px;
+		background-position: -128px -64px;
 	}
 	50.00001%,
 	100% {
-		background-position: -128px -94px;
+		background-position: -128px -96px;
 	}
 }
 @keyframes scratchright {
 	0%,
 	50% {
-		background-position: -64px -62px;
+		background-position: -64px -64px;
 	}
 	50.00001%,
 	100% {
-		background-position: -64px -94px;
+		background-position: -64px -96px;
 	}
 }
 @keyframes scratchleft {
 	0%,
 	50% {
-		background-position: -128px 2px;
+		background-position: -128px 0px;
 	}
 	50.00001%,
 	100% {
-		background-position: -128px -30px;
+		background-position: -128px -32px;
 	}
 }
 @keyframes scratchup {
@@ -81,45 +81,45 @@
 @keyframes spinleft {
 	0%,
 	20% {
-		background-position: -96px -30px;
+		background-position: -96px -32px;
 	}
 	20.00001%,
 	40% {
-		background-position: -160px -62px;
+		background-position: -160px -64px;
 	}
 	40.00001%,
 	60% {
-		background-position: -224px -62px;
+		background-position: -224px -64px;
 	}
 	60.00001%,
 	80% {
-		background-position: -192px -30px;
+		background-position: -192px -32px;
 	}
 	80.00001%,
 	100% {
-		background-position: -128px -94px;
+		background-position: -128px -96px;
 	}
 }
 @keyframes spinright {
 	0%,
 	20% {
-		background-position: -128px -94px;
+		background-position: -128px -96px;
 	}
 	20.00001%,
 	40% {
-		background-position: -192px -30px;
+		background-position: -192px -32px;
 	}
 	40.00001%,
 	60% {
-		background-position: -224px -62px;
+		background-position: -224px -64px;
 	}
 	60.00001%,
 	80% {
-		background-position: -160px -62px;
+		background-position: -160px -64px;
 	}
 	80.00001%,
 	100% {
-		background-position: -96px -30px;
+		background-position: -96px -32px;
 	}
 }
 @keyframes wakeup {
