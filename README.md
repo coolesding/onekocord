@@ -180,6 +180,7 @@ If you want to contribute, make sure to open an issue with your idea or code and
 
   -  [KrystalSkull](https://github.com/KrstlSkll69)
 
+  -  [LuSaffi](https://github.com/LuSaffi)
 
 
 </details>
