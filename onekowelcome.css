@@ -1,20 +1,19 @@
-.welcomeCTASticker__74db1>.assetWrapper__671e3 /*Welcome cta <3*/{
-    display: none;
-  }
-  .welcomeCTASticker__74db1::before {
-    content: "";
-    background: var(--onekowelcome-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
-    animation: var(--onekowelcome-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekowelcome-sleep-duration, 2s) var(--onekowelcome-wakeup-duration, 2s) infinite var(--onekowelcome-sleep-animation, sleep);
-    image-rendering: var(--onekowelcome-rendering, pixelated);
-    width: 28px;
-    height: 28px;
-    display: block;
-    position: relative;
-    right: 4px;
-    bottom: 4px;
-    scale: var(--onekowelcome-scale, 1);
-  }
-  .welcomeCTAButtonOuter_fdd0ae:hover .welcomeCTASticker__74db1::before {
-    animation: var(--onekowelcome-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekowelcome-hovered-duration, 0.3s) var(--onekowelcome-wakeup-duration, 2s) infinite var(--onekowelcome-hovered-animation, alert);
-  }
-  
+.welcomeCTASticker_f6dde0>.assetWrapper_cb3343 /*Welcome cta <3*/{
+  display: none;
+}
+.welcomeCTASticker_f6dde0::before {
+  content: "";
+  background: var(--onekowelcome-skin, url(https://raw.githubusercontent.com/vencordcss/onekocord/main/onekoskins/default.png));
+  animation: var(--onekowelcome-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekowelcome-sleep-duration, 2s) var(--onekowelcome-wakeup-duration, 2s) infinite var(--onekowelcome-sleep-animation, sleep);
+  image-rendering: var(--onekowelcome-rendering, pixelated);
+  width: 28px;
+  height: 28px;
+  display: block;
+  position: relative;
+  right: 4px;
+  bottom: 4px;
+  scale: var(--onekowelcome-scale, 1);
+}
+.welcomeCTAButtonOuter_f6dde0:hover .welcomeCTASticker_f6dde0::before {
+  animation: var(--onekowelcome-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekowelcome-hovered-duration, 0.3s) var(--onekowelcome-wakeup-duration, 2s) infinite var(--onekowelcome-hovered-animation, alert);
+}

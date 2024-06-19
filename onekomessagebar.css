@@ -1,5 +1,5 @@
 /*Add oneko*/
-.channelTextArea_c2094b:before {
+.channelTextArea_a7d72e:before {
 	content: "";
 	background-image: var(--onekomessagebar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
 	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekomessagebar-sleep-duration, 2s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-sleep-animation, sleep);
@@ -13,10 +13,10 @@
 	scale: var(--onekomessagebar-scale, 1);
 }
 /*Wake oneko up on hover and start hover animation*/
-.channelTextArea_c2094b:hover:before {
+.channelTextArea_a7d72e:hover:before {
   animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-hovered-duration, 0.3s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-hovered-animation, alert)
 }
 /*Wake oneko up when message bar is selected and start selected animation*/
-.channelTextArea_c2094b:has(:focus):before {
+.channelTextArea_a7d72e:has(:focus):before {
 	animation: var(--onekomessagebar-wakeup-duration, 2s) 1 forwards var(--onekomessagebar-wakeup-animation, wakeup), var(--onekomessagebar-selected-duration, 0.3s) var(--onekomessagebar-wakeup-duration, 2s) infinite var(--onekomessagebar-selected-animation, alert);
 }

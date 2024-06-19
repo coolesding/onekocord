@@ -1,8 +1,8 @@
 /*Add oneko*/
-.barInMultiLine__5fd01 {
+.barInMultiLine_aa267a {
     display: flex;
 }
-.barInMultiLine__5fd01:after {
+.barInMultiLine_aa267a:after {
     content: "";
     background-image: var(--onekoprogressbar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     width: 32px;

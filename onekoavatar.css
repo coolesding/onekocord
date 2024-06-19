@@ -1,9 +1,9 @@
 /*Hide orignal avatar*/
-.avatar_f8541f>.svg_a6bf1c {
+.avatar_b2ca13>.svg_c51b4e {
     display: none;
 }
 /*Add oneko*/
-.avatar_f8541f:before {
+.avatar_b2ca13:before {
     content: "";
     background: var(--onekoavatar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekoavatar-sleep-duration, 2s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-sleep-animation, sleep);
@@ -15,12 +15,12 @@
     scale: var(--onekoavatar-scale, 1);
 }
 /*Wake oneko up and start hover animation on hover*/
-.avatarWrapper__500a6:hover>.avatar_f8541f:before {
+.avatarWrapper_b2ca13:hover>.avatar_b2ca13:before {
     animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekoavatar-hovered-duration, 0.3s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-hovered-animation, alert);
     opacity: 1;
 }
 /*Wake oneko up when opened profile animation */
-[aria-controls]>.avatar_f8541f:before {
+[aria-controls]>.avatar_b2ca13:before {
     animation: var(--onekoavatar-wakeup-duration, 2s) 1 forwards var(--onekoavatar-wakeup-animation, wakeup), var(--onekoavatar-selected-duration, 0.3s) var(--onekoavatar-wakeup-duration, 2s) infinite var(--onekoavatar-selected-animation, alert);
     opacity: 1;
 }

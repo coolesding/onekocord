@@ -1,9 +1,9 @@
 /*Hide original home icon*/
-.tutorialContainer_b06ae6>.listItem__48528 .childWrapper_a6ce15 {
+.tutorialContainer_f9623d>.listItem_c96c45 .childWrapper_a6ce15 {
 	display: none;
 }
 /*Add oneko*/
-.tutorialContainer_b06ae6>.listItem__48528 .wrapper__8436d:before {
+.tutorialContainer_f9623d>.listItem_c96c45 .wrapper__8436d:before {
 	content: "";
 	background-image: var(--onekohomeicon-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
 	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekohomeicon-sleep-duration, 1s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-sleep-animation, sleep);
@@ -15,12 +15,12 @@
     scale: var(--onekohomeicon-scale, 1);
 }
 /*Wake oneko up and start hover animation on hover*/
-.tutorialContainer_b06ae6>.listItem__48528 .wrapper__8436d:hover:before {
+.tutorialContainer_f9623d>.listItem_c96c45 .wrapper__8436d:hover:before {
 	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-hovered-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-hovered-animation, alert);
 	opacity: 1;
 }
 /*Wake oneko up and start selected animation when opening dms*/
-.tutorialContainer_b06ae6>.listItem__48528 .wrapper__8436d.selected_ae80f7:not(:hover):before {
+.tutorialContainer_f9623d>.listItem_c96c45 .wrapper__8436d.selected_ae80f7:not(:hover):before {
 	animation: var(--onekohomeicon-wakeup-duration, 2s) 1 forwards var(--onekohomeicon-wakeup-animation, wakeup), var(--onekohomeicon-selected-duration, 0.3s) var(--onekohomeicon-wakeup-duration, 2s) infinite var(--onekohomeicon-selected-animation, runright);
 	opacity: 1;
 }
