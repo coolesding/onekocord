@@ -3,7 +3,7 @@
   }
   .welcomeCTASticker_f6dde0::before {
     content: "";
-    background: var(--onekowelcome-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/fox.png));
+    background: var(--onekowelcome-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     animation: var(--onekowelcome-wakeup-duration, 2s) 1 forwards gotosleep, var(--onekowelcome-sleep-duration, 2s) var(--onekowelcome-wakeup-duration, 2s) infinite var(--onekowelcome-sleep-animation, sleep);
     image-rendering: var(--onekowelcome-rendering, pixelated);
     width: 28px;
