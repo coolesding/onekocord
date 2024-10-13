@@ -11,26 +11,31 @@ Onekoanimations.css is needed for all Oneko snippets. It supplies the animations
 **Onekohomeicon**
 
 An Oneko for your home icon!
+
 ![image](images/Homeicon.png)
 
 **Onekomessagebar**
 
 Oneko on your message input!
+
 ![image](images/Messagebar.png)
 
 **Onekotoolbox**
 
 Replaces the new sleeping Oneko on the Vencordtoolbox with a custom Oneko!
+
 ![image](images/Toolbox.png)
 
 **Onekoavatar** 
 
 Replace your avatar with an interactive Oneko
+
 ![image](images/Avatar.png)
 
 **Onekowelcome**
 
 Replace the "Wave to say hi!" Sticker with Oneko
+
 ![image](images/Welcome.png)
 
 ## Installation
