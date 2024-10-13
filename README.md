@@ -1,15 +1,12 @@
 # Onekocord: Oneko for Discord!
 
-Your favourite cat, Oneko, implemented into discord everywhere you wish!
-
-This repository contains all official Oneko skins and code snippets
-
-Confirmed for use in Vencord based clients, should mostly support all other clientmods
+Oneko, the internet cat, implemented into discord wherever you wish! 
+Hosted here are skins and code snippets for oneko that should be compatible for all web based clients
 
 ## Content
 **Onekoanimations**
 
-Onekoanimations.css is needed for all Oneko snippets. It supplies the different animations to the Oneko snippets.
+Onekoanimations.css is needed for all Oneko snippets. It supplies the animations to the Oneko snippets.
 
 **Onekohomeicon**
 
@@ -174,7 +171,7 @@ Valid Skins are all the files in the Onekoskins folder, just change default.png 
 
 ## Contributing and Permissions
 
-If you want to contribute, make sure to open an issue with your idea or code and I will review it and if sufficient, add it to the repository. We invite EVERYONE to create new skins or supply ideas for new oneko snippets. If you have an idea but not the skills, open an issue with the "Suggestion" tag.
+To contribute, simply open a pull request with your code or skin, or open an issue with the "Suggestion" tag.
 <details>
 <summary>Contributors</summary>
 
