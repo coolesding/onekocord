@@ -28,7 +28,7 @@
     opacity: 1;
 }
 /*Wake oneko up when selected and start selected animation */
-.vc-toolbox-btn.selected__1fc53:before{
+.vc-toolbox-btn.selected_fc4f04:before{
     animation: var(--onekotoolbox-wakeup-duration, 2s) 1 forwards var(--onekotoolbox-wakeup-animation, wakeup), var(--onekotoolbox-selected-duration, 0.3s) var(--onekotoolbox-wakeup-duration, 2s) infinite var(--onekotoolbox-selected-animation, alert);
     opacity: 1;
 }

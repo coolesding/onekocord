@@ -1,0 +1,106 @@
+/*Onekocord section*/
+/*DO NOT REMOVE, KEEP AT TOP*/
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekoanimations.css);
+
+/*Onekocord snippets*/
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekoattachmenticon.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekoavatar.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekohomeicon.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekomessagebar.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekoprogressbar.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekotoolbox.css);
+@import url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/onekowelcome.css);
+
+/*Onekocord settings*/
+
+/*Edit any value you want, you can remove values you don't want to change*/
+:root { /*Onekohomeicon*/
+--onekohomeicon-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png); /*Replace "default" with the name of any skin, case sensitive*/
+--onekohomeicon-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekohomeicon-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekohomeicon-wakeup-duration: 2s; /*Any time value*/
+--onekohomeicon-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekohomeicon-sleep-duration: 2s; /*Any time value*/
+--onekohomeicon-hovered-animation: runright; /*Any animation, case sensitive*/
+--onekohomeicon-hovered-duration: 0.3s; /*Any time value*/
+--onekohomeicon-selected-animation: alert; /*Any animation, case sensitive*/
+--onekohomeicon-selected-duration: 0.3s; /*Any time value*/
+--onekohomeicon-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekomessagebar*/
+--onekomessagebar-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekomessagebar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekomessagebar-z-index: 1; /*https://developer.mozilla.org/en-US/docs/Web/CSS/z-index*/
+--onekomessagebar-position-top: -30px; /*Any length value*/
+--onekomessagebar-position-left: 10px; /*Any length value*/
+--onekomessagebar-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekomessagebar-wakeup-duration: 2s; /*Any time value*/
+--onekomessagebar-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekomessagebar-sleep-duration: 2s; /*Any time value*/
+--onekomessagebar-hovered-animation: runright; /*Any animation, case sensitive*/
+--onekomessagebar-hovered-duration: 0.3s; /*Any time value*/
+--onekomessagebar-selected-animation: alert; /*Any animation, case sensitive*/
+--onekomessagebar-selected-duration: 0.3s; /*Any time value*/
+--onekomessagebar-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekotoolbox*/
+--onekotoolbox-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekotoolbox-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekotoolbox-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekotoolbox-wakeup-duration: 2s; /*Any time value*/
+--onekotoolbox-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekotoolbox-sleep-duration: 2s; /*Any time value*/
+--onekotoolbox-hovered-animation: runright; /*Any animation, case sensitive*/
+--onekotoolbox-hovered-duration: 0.3s; /*Any time value*/
+--onekotoolbox-selected-animation: alert; /*Any animation, case sensitive*/
+--onekotoolbox-selected-duration: 0.3s; /*Any time value*/
+--onekotoolbox-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekoavatar*/
+--onekoavatar-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekoavatar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekoavatar-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekoavatar-wakeup-duration: 2s; /*Any time value*/
+--onekoavatar-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekoavatar-sleep-duration: 2s; /*Any time value*/
+--onekoavatar-hovered-animation: runright; /*Any animation, case sensitive*/
+--onekoavatar-hovered-duration: 0.3s; /*Any time value*/
+--onekoavatar-selected-animation: alert; /*Any animation, case sensitive*/
+--onekoavatar-selected-duration: 0.3s; /*Any time value*/
+--onekoavatar-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekowelcome*/
+--onekowelcome-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekowelcome-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekowelcome-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekowelcome-wakeup-duration: 2s; /*Any time value*/
+--onekowelcome-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekowelcome-sleep-duration: 2s; /*Any time value*/
+--onekowelcome-hovered-animation: runright; /*Any animation, case sensitive*/
+--onekowelcome-hovered-duration: 0.3s; /*Any time value*/
+--onekowelcome-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekoattachmenticon*/
+--onekoattachmenticon-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekoattachmenticon-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekoattachmenticon-z-index: 1; /*https://developer.mozilla.org/en-US/docs/Web/CSS/z-index*/
+--onekoattachmenticon-position-top: -30px; /*Any length value*/
+--onekoattachmenticon-position-left: 10px; /*Any length value*/
+--onekoattachmenticon-wakeup-animation: wakeup; /*Any animation, case sensitive*/
+--onekoattachmenticon-wakeup-duration: 2s; /*Any time value*/
+--onekoattachmenticon-sleep-animation: sleep; /*Any animation, case sensitive*/
+--onekoattachmenticon-sleep-duration: 2s; /*Any time value*/
+--onekoattachmenticon-hovered-animation: scratchright; /*Any animation, case sensitive*/
+--onekoattachmenticon-hovered-duration: 0.3s; /*Any time value*/
+--onekoattachmenticon-selected-animation: alert; /*Any animation, case sensitive*/
+--onekoattachmenticon-selected-duration: 0.3s; /*Any time value*/
+--onekoattachmenticon-scale: 1; /*Size multiplier, usually breaks things*/
+}
+:root { /*Onekoprogressbar*/
+--onekoprogressbar-skin: url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png);/*Replace "default" with the name of any skin, case sensitive*/
+--onekoprogressbar-rendering: pixelated; /*https://developer.mozilla.org/en-US/docs/Web/CSS/image-rendering*/
+--onekoprogressbar-position-top: -28px; /*Any length value*/
+--onekoprogressbar-position-left: -16px; /*Any length value*/
+--onekoprogressbar-animation: runright; /*Any animation, case sensitive*/
+--onekoprogressbar-duration: 0.3s; /*Any time value*/
+}

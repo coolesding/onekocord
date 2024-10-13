@@ -1,15 +1,15 @@
 /*Add oneko*/
-.barInMultiLine_aa267a {
+.barInMultiLine_ec2fa7 {
     display: flex;
 }
-.barInMultiLine_aa267a:after {
+.barInMultiLine_ec2fa7:after {
     content: "";
     background-image: var(--onekoprogressbar-skin, url(https://raw.githubusercontent.com/coolesding/onekocord/main/skins/default.png));
     width: 32px;
-    animation: var(--onekoprogressbar-duration, 0.3s) infinite var(--onekoprogressbar-animation, runright);
     height: 32px;
-    top: -28px;
-    left: -16px;
+    animation: var(--onekoprogressbar-duration, 0.3s) infinite var(--onekoprogressbar-animation, runright);
+    top: var(--onekoprogressbar-top, -28px);
+    left: var(--onekoprogressbar-left, -16px);
     position: relative;
     image-rendering: var(--onekoprogressbar-rendering, pixelated);
 }
