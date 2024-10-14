@@ -78,6 +78,8 @@ To contribute, simply open a pull request with your code or skin, or open an iss
 
   -  [LuSaffi](https://github.com/LuSaffi)
 
+  -  [WZhengJie99](https://github.com/WZhengJie99)
+
 
 </details>
 
